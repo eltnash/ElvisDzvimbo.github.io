@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Sign Up - Whispering Pines Wellness Haven</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html">Whispering Pines Wellness Haven</a></h1>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+			<!-- Menu -->
+			<nav id="menu">
+				<div class="inner">
+					<h2>Menu</h2>
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="services.html">Our Services</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="login.html">Log In</a></li>
+						<li><a href="signup.html">Sign Up</a></li>
+					</ul>
+					<a href="#" class="close">Close</a>
+				</div>
+			</nav>
+
+			<!-- Wrapper -->
+			<section id="wrapper">
+				<header>
+					<div class="inner">
+						<h2>Create Your Account</h2>
+						<p>Join our wellness community and start your journey to better health.</p>
+					</div>
+				</header>
+
+				<!-- Content -->
+				<div class="wrapper">
+					<div class="inner">
+						<section class="signup-form">
+							<form method="post" action="/auth/signup" id="signupForm">
+								<div class="fields">
+									<div class="field half">
+										<label for="firstName">First Name</label>
+										<input type="text" name="firstName" id="firstName" required />
+									</div>
+									<div class="field half">
+										<label for="lastName">Last Name</label>
+										<input type="text" name="lastName" id="lastName" required />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" required />
+									</div>
+									<div class="field half">
+										<label for="password">Password</label>
+										<input type="password" name="password" id="password" required />
+									</div>
+									<div class="field half">
+										<label for="confirmPassword">Confirm Password</label>
+										<input type="password" name="confirmPassword" id="confirmPassword" required />
+									</div>
+									<div class="field">
+										<label for="phone">Phone Number</label>
+										<input type="tel" name="phone" id="phone" />
+									</div>
+									<div class="field">
+										<label for="birthdate">Date of Birth</label>
+										<input type="date" name="birthdate" id="birthdate" required />
+									</div>
+									<div class="field">
+										<label for="interests">Wellness Interests (Select all that apply)</label>
+										<div class="checkboxes">
+											<input type="checkbox" id="yoga" name="interests" value="yoga">
+											<label for="yoga">Yoga</label>
+											
+											<input type="checkbox" id="meditation" name="interests" value="meditation">
+											<label for="meditation">Meditation</label>
+											
+											<input type="checkbox" id="massage" name="interests" value="massage">
+											<label for="massage">Massage Therapy</label>
+											
+											<input type="checkbox" id="nutrition" name="interests" value="nutrition">
+											<label for="nutrition">Nutrition</label>
+											
+											<input type="checkbox" id="fitness" name="interests" value="fitness">
+											<label for="fitness">Fitness</label>
+											
+											<input type="checkbox" id="holistic" name="interests" value="holistic">
+											<label for="holistic">Holistic Healing</label>
+										</div>
+									</div>
+									<div class="field">
+										<label for="goals">Wellness Goals</label>
+										<textarea name="goals" id="goals" rows="3"></textarea>
+									</div>
+									<div class="field">
+										<label for="newsletter">
+											<input type="checkbox" id="newsletter" name="newsletter" checked>
+											Subscribe to our newsletter for wellness tips and special offers
+										</label>
+									</div>
+									<div class="field">
+										<label for="terms">
+											<input type="checkbox" id="terms" name="terms" required>
+											I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+										</label>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Create Account" class="primary" /></li>
+									<li><input type="reset" value="Clear Form" /></li>
+								</ul>
+							</form>
+							<div class="login-prompt">
+								<p>Already have an account? <a href="login.html">Log in here</a></p>
+							</div>
+						</section>
+
+						<section class="member-benefits">
+							<h3 class="major">Member Benefits</h3>
+							<div class="features">
+								<article>
+									<span class="icon solid fa-calendar-alt"></span>
+									<h4>Easy Booking</h4>
+									<p>Schedule and manage your appointments online anytime.</p>
+								</article>
+								<article>
+									<span class="icon solid fa-chart-line"></span>
+									<h4>Progress Tracking</h4>
+									<p>Monitor your wellness journey with personalized dashboards.</p>
+								</article>
+								<article>
+									<span class="icon solid fa-percentage"></span>
+									<h4>Exclusive Discounts</h4>
+									<p>Access member-only pricing and special offers.</p>
+								</article>
+								<article>
+									<span class="icon solid fa-users"></span>
+									<h4>Community Access</h4>
+									<p>Join our wellness community and special events.</p>
+								</article>
+							</div>
+						</section>
+					</div>
+				</div>
+
+			</section>
+
+			<!-- Footer -->
+			<section id="footer">
+				<div class="inner">
+					<ul class="contact">
+						<li class="icon solid fa-home">
+							Whispering Pines Wellness Haven<br />
+							1234 Wellness Road<br />
+							Balance City, BC 56789
+						</li>
+						<li class="icon solid fa-phone">(123) 456-7890</li>
+						<li class="icon solid fa-envelope"><a href="mailto:info@whisperingpineswellness.com">info@whisperingpineswellness.com</a></li>
+						<li class="icon brands fa-instagram"><a href="#">instagram.com/whisperingpineswellness</a></li>
+						<li class="icon brands fa-facebook-f"><a href="#">facebook.com/whisperingpineswellness</a></li>
+					</ul>
+				</div>
+			</section>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/auth.js"></script>
+
+	</body>
+</html> 
